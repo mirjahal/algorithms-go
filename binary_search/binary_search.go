@@ -1,4 +1,4 @@
-package algorithms
+package binarysearch
 
 func BinarySearch(numbers []int, guess int) int {
 	min := 0
