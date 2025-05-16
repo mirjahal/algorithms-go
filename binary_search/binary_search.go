@@ -1,6 +1,6 @@
 package binarysearch
 
-func BinarySearch(numbers []int, guess int) int {
+func binarySearch(numbers []int, guess int) int {
 	min := 0
 	max := len(numbers) - 1
 

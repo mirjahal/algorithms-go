@@ -7,7 +7,7 @@ func TestBinarySearchFindIndexSuccessfully(t *testing.T) {
 	guess := 7
 	expected := 3
 
-	index := BinarySearch(numbers[:], guess)
+	index := binarySearch(numbers[:], guess)
 
 	if index != expected {
 		t.Errorf(`The index returned was %v, but %v was expected`, index, expected)
@@ -19,7 +19,7 @@ func TestBinarySearchIndexNotFoundInArray(t *testing.T) {
 	guess := 25
 	expected := -1
 
-	index := BinarySearch(numbers[:], guess)
+	index := binarySearch(numbers[:], guess)
 
 	if index != expected {
 		t.Errorf(`The index returned was %v, but %v was expected`, index, expected)
